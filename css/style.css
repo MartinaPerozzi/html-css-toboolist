@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(236, 233, 233);
+    background-color: rgb(232, 239, 241);
 }
 
 header{
@@ -24,6 +24,36 @@ h1{
     font-size:35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(5, 5, 31);
-    position: absolute;
-    
+    position: absolute; 
+}
+
+.container{
+    width: 900px;
+    height:600px;
+    background-color: white;
+    vertical-align: middle;
+    margin:auto;
+    margin-top: 50px;
+    border-radius:10px;
+}
+.user-input{
+    height:70px;
+    border-bottom: 2px solid rgb(232, 231, 231);
+}
+
+button {
+    padding:10px;
+    color:white;
+    background-color: rgb(0, 174, 255);
+    border-radius: 10px;
+    border-style: none;
+    margin-left:40px;
+    margin-top:20px;
+    margin-right: 5px;
+}
+#grey-button{
+    color:grey;
+    background-color: white;
+    margin:0;
+    border: 2px solid rgb(232, 231, 231);
 }
