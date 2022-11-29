@@ -52,8 +52,43 @@ button {
     margin-right: 5px;
 }
 #grey-button{
-    color:grey;
+    color:lightgrey;
     background-color: white;
     margin:0;
     border: 2px solid rgb(232, 231, 231);
+}
+section{
+    margin-left:40px;
+    margin-top:40px;
+}
+h2{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size:16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+strong{
+    background-color: rgb(0, 174, 255);
+    padding:8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size:12px;
+    color:white;
+    font-style: normal;
+    font-weight: lighter;
+}
+span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.checkmark{
+    border: 1px solid green;
+    color:green;
+    text-align: center;
 }
