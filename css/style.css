@@ -3,3 +3,27 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(236, 233, 233);
+}
+
+header{
+    height:80px;
+    background-color: white;
+    vertical-align: middle;
+    line-height: 80px;
+    position: relative;
+}
+
+#logo{
+    padding:16px;
+}
+
+h1{
+    display:inline-block;
+    font-size:35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(5, 5, 31);
+    position: absolute;
+    
+}
