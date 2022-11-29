@@ -29,7 +29,7 @@ h1{
 
 .container{
     width: 900px;
-    height:600px;
+    height:900px;
     background-color: white;
     vertical-align: middle;
     margin:auto;
@@ -69,13 +69,14 @@ p{
     font-size:16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 10px;
+    margin-bottom:23px;
 }
 strong{
     background-color: rgb(0, 174, 255);
     padding:8px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size:12px;
     color:white;
     font-style: normal;
@@ -91,4 +92,20 @@ span{
     border: 1px solid green;
     color:green;
     text-align: center;
+}
+.xmark{
+    color:red;
+    border: 1px solid red;
+    text-align: center;
+    font-size:14px;
+}
+
+#goals{
+    background-color: rgb(160, 84, 231);
+}
+#recruiting{
+    background-color: rgb(100, 188, 122);
+}
+#mobile{
+    background-color: rgb(228, 131, 62);
 }
