@@ -68,12 +68,17 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 20px;
 }
-p{
+ul{
     font-size:16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 10px;
     margin-bottom:23px;
+    list-style: none;
 }
+li{
+    margin-bottom:23px;
+}
+
 strong{
     background-color: rgb(0, 174, 255);
     padding:8px;
